@@ -1,0 +1,31 @@
+{
+  "name": "antd-theme",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "antd-theme": "./bin/antd-theme",
+    "at": "./bin/antd-theme"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dulinrain",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^3.6.3",
+    "commander": "^2.15.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-less": "^3.5.0",
+    "gulp-nop": "0.0.3",
+    "ora": "^2.1.0",
+    "run-sequence": "^2.2.1"
+  },
+  "devDependencies": {}
+}
